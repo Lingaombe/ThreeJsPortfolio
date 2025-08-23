@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300');
+
+*{
+  font-family: 'comfortaa';
+  color: black;
+  font-size: 1.5rem;
+}
+body{
+  margin: 10;
+  display: grid;
+}
+
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+main{
+  position: relative;
+}
+a{
+  color: orangered;
+  text-decoration: none;
+}
+.about{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.light{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Manifesto{
+  position: fixed;
+  bottom: 0;
+  right: 50%;
+}
+fieldset{
+  position: absolute;
+  width: 30%;
+}
+blockquote{
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+}
